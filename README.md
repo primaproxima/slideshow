@@ -22,7 +22,9 @@ This will, however, build the default slideshow, found in the /default directory
 To build your slideshow, pass in the grunt option `slidesPath` pointing to the absolute path of the slideshow and pass in the grunt option `slidesTitle` to have a nice html title in the browser.
 
 `grunt build --slidesPath='./content/heapcon2018' --slidesTitle='Heapcon 2018`
+
 or
+
 `npm run build -- --slidesPath='./content/heapcon2018' --slidesTitle='Heapcon 2018`
 
 ### Run the slideshow
