@@ -13,3 +13,4 @@ package-lock.json
 **/reveal.min.js
 dist
 **/*.css
+*.zip
