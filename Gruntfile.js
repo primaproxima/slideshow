@@ -120,7 +120,7 @@ module.exports = function (grunt) {
         src: [
           './dist/**'
         ],
-        dest: 'reveal-js-presentation.zip'
+        dest: `${slidesTitle}.zip`
       }
     },
 
@@ -253,7 +253,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', ['default']);
 
   // Package presentation to archive
-  grunt.registerTask('package', ['default', 'zip']);
+  grunt.registerTask('package', ['zip']);
 
   // Serve presentation locally
   grunt.registerTask('serve', ['connect', 'watch']);
